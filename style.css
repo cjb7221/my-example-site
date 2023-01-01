@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+h2 {
+    color: #4e342e;
+    font-weight: normal;
+    font-size: 2.5rem;
+    margin: 0;
+}
+h3 {
+    color: #4e342e;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0; 
+    margin-bottom: 20px;   
+}
+p {
+    color: #4e342e;
+    font-size: 1.18rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.inner {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 45px;    
+}
+.clear {
+    clear: both;
+}
+
+/* Header */
+
+.header {
+    background-color: #4e342e;
+    color: #fff;    
+    padding: 10px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav li {
+    margin-left: 15px;    
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: all 1s ease-in-out;
+}
+.nav .current {
+    color: #A1887f;
+}
+.nav a:hover {
+    transform: rotate(9deg); 
+    color: #A1887f;
+}
+
+/* Hero section */
+
+.hero {
+    background-color: #D7CCC8;
+    color: #4e342e;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+.hero-inner {
+    max-width: 760px; 
+}
+.button {
+    text-decoration: none;
+    background-color: #4e342e;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 1.18rem;
+}
+
+/* Features Section */
+
+.features {
+    background-color: #efebe9;
+    padding: 60px 45px;    
+}
+.features-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    color:#4e342e;    
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+}
+.featured-item {
+    background-color: #fff; 
+    padding: 25px;      
+}
+
+/* About Us Section */
+
+.about {
+    background-color: #efebe9;
+    padding: 45px;
+    
+}
+.about-item img {
+    width: 45%; 
+    padding: 0 75px;
+    margin-bottom: 65px;
+}
+.about-item p,
+.about-item  h2 {
+    width: 45%;
+    display: inline-block;
+    
+}
+
+
+/* Listings Section */
+
+.listings {
+    background-color: #D7CCC8;
+    padding: 65px 45px;
+}
+ .listings-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+}
+.listings-inner img {
+    width: 100%;
+}
+
+/* Footer Section*/
+
+.footer p {
+    color: #999;
+    font-size: 0.8rem;
+    padding: 20px 0;
+    margin: 0px;
+    text-align: center; 
+}
